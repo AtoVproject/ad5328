@@ -30,6 +30,22 @@ impl From<Channel> for u8 {
     }
 }
 
+impl From<u8> for Channel {
+    fn from(chan: u8) -> Self {
+        match chan {
+            0 => Channel::A,
+            1 => Channel::B,
+            2 => Channel::C,
+            3 => Channel::D,
+            4 => Channel::E,
+            5 => Channel::F,
+            6 => Channel::G,
+            7 => Channel::H,
+            _ => panic!("Not a valid Ad5328 channel"),
+        }
+    }
+}
+
 impl Channel {
     fn as_u16(&self) -> u16 {
         (*self as u16) << 12
