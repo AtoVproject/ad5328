@@ -1,15 +1,15 @@
-[![crates.io](https://img.shields.io/crates/d/embedded-driver.svg)](https://crates.io/crates/embedded-driver)
-[![crates.io](https://img.shields.io/crates/v/embedded-driver.svg)](https://crates.io/crates/embedded-driver)
-[![Documentation](https://docs.rs/embedded-driver/badge.svg)](https://docs.rs/embedded-driver)
+[![crates.io](https://img.shields.io/crates/d/ad5328.svg)](https://crates.io/crates/ad5328)
+[![crates.io](https://img.shields.io/crates/v/ad5328.svg)](https://crates.io/crates/ad5328)
+[![Documentation](https://docs.rs/ad5328/badge.svg)](https://docs.rs/ad5328)
 ![Minimum Supported Rust Version](https://img.shields.io/badge/rustc-1.46+-blue.svg)
 
-# `embedded-driver-template`
+# `ad5328`
 
->  A rust-embedded driver template to get you started
+>  A rust-embedded driver for the Analog Devices AD5328 DAC.
 
 ## [API reference]
 
-[API reference]: https://docs.rs/embedded-driver
+[API reference]: https://docs.rs/ad5328
 
 ## Minimum Supported Rust Version (MSRV)
 
